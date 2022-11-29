@@ -1,0 +1,67 @@
+body {
+  background-image: url("background img.jpeg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1;
+  gap: 15px;
+  min-width: 560px;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  .content-wrapper {
+    min-width: 420px;
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .content-wrapper {
+    min-width: 360px;
+    padding: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .content-wrapper {
+    min-width: 300px;
+    padding: 20px;
+  }
+}
+@media (max-width: 340px) {
+  .content-wrapper {
+    min-width: 260px;
+    padding: 15px;
+  }
+}
+.content-wrapper .inputs {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.content-wrapper #youtube-window {
+  width: 100%;
+  min-height: 315px;
+}
+@media (max-width: 600px) {
+  .content-wrapper #youtube-window {
+    min-height: 240px;
+  }
+}
+@media (max-width: 480px) {
+  .content-wrapper #youtube-window {
+    min-height: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .content-wrapper #youtube-window {
+    min-height: 180px;
+  }
+}
+@media (max-width: 340px) {
+  .content-wrapper #youtube-window {
+    min-height: 170px;
+  }
+}/*# sourceMappingURL=style.css.map */
